@@ -1,0 +1,8 @@
+dever-lop
+
+- Refatoração completa do README com documentação profissional.
+- Implementação de um sistema de logs robusto (rotação de arquivos, saída padrão e integração opcional ao CloudWatch via watchtower).
+- Atualização do .gitignore para excluir ambientes virtuais, arquivos de configuração, caches, logs e artefatos de compilação.
+- Ajustes no código‑fonte do bot para garantir inicialização correta das configurações e captura de exceções.
+
+Refs: 01 – Task do teste – Autor: markus – 2026-11-14T17:35:43Z
