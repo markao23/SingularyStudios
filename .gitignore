@@ -1,0 +1,64 @@
+# Python project .gitignore - common files/folders that should NOT be committed
+# ------------------------------------------------------------
+# Virtual environments
+.venv/
+.env
+.vscode/
+
+# Byte‑compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files (dotenv, pyenv, etc.)
+.python-version
+
+# IDE / editor specific
+.vscode/
+.idea/
+
+# Static analysis caches
+.mypy_cache/
+.ruff_cache/
+
+# Logs and other runtime files
+logs/
+*.log
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Additional generated files
+*.sqlite3
+*.db
+
+# End of .gitignore
